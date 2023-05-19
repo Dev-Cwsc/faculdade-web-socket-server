@@ -6,7 +6,7 @@ Implementation of a socket web server. It provides access to files in a folder s
 
 # Como usar?
 
-Para compilar o projeto na IDE CodeBlocks ou diretamente no terminal, é necessário inserir o parâmetro "-pthread" para que o compilador consiga reconhecer adequadamente a biblioteca "thread" que foi utilizada neste projeto.
+Para compilar o projeto na [IDE CodeBlocks](https://www.codeblocks.org/downloads/) ou diretamente no terminal, é necessário inserir o parâmetro "-pthread" para que o compilador consiga reconhecer adequadamente a biblioteca "thread" que foi utilizada neste projeto.
 
 Esse parâmetro não vem setado por padrão no CodeBlocks. Por isso, aqui vai um breve tutorial de como fazer essa configuração para compilar o projeto corretamente (se não estiver usando CodeBlocks pode pular essa esse tutorial):
 
