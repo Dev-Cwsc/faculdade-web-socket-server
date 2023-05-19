@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\main.cpp
+	<iostream>
+
+1634407326 
+
+1634404478 source:c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\src\file_interface.cpp
+	"File_Interface.h"
+
+1634407047 rface.h"
+
+1634406553 c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\include\file_interface.h
+	<string>
+
+1634404516 source:c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\src\socket_interface.cpp
+	"Socket_Interface.h"
+
+1634404516 terface.h"
+
+1634404832 c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\include\socket_interface.h
+	<string>
+
+1634407326 source:c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\src\file.cpp
+	"File.h"
+
+1634407047 c:\users\cwsc9\desktop\trabalho_de_redes\carloswilliansilva-lucasdael-rafaelborges\include\file.h
+	<string>
+	<fstream>
+	<unistd.h>
+	"File_Interface.h"
+
+1634417572 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/main.cpp
+	"Server.h"
+
+1634407326 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/File.cpp
+	"File.h"
+
+1634408507 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/File.h
+	<string>
+	<fstream>
+	<unistd.h>
+	"File_Interface.h"
+
+1634408536 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/File_Interface.h
+	<string>
+
+1634404478 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/File_Interface.cpp
+	"File_Interface.h"
+
+1634404516 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/Socket_Interface.cpp
+	"Socket_Interface.h"
+
+1634408522 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/Socket_Interface.h
+	<string>
+
+1634412901 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/Socket.cpp
+	"Socket.h"
+
+1634413012 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/Socket.h
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	"Socket_Interface.h"
+
+1634414258 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/HTTP.cpp
+	"HTTP.h"
+
+1634414041 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/HTTP.h
+	<iostream>
+	<sstream>
+	<string>
+	<limits.h>
+	<iomanip>
+
+1634417424 source:/home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/src/Server.cpp
+	"Server.h"
+
+1634416883 /home/paty/Downloads/trabalho_de_redes/carloswilliansilva-lucasdael-rafaelborges/include/Server.h
+	<thread>
+	"File.h"
+	"Socket.h"
+	"HTTP.h"
+

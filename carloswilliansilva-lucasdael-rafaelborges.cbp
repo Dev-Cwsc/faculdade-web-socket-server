@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="carloswilliansilva-lucasdael-rafaelborges" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/carloswilliansilva-lucasdael-rafaelborges" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/carloswilliansilva-lucasdael-rafaelborges" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/File.h" />
+		<Unit filename="include/File_Interface.h" />
+		<Unit filename="include/HTTP.h" />
+		<Unit filename="include/Server.h" />
+		<Unit filename="include/Socket.h" />
+		<Unit filename="include/Socket_Interface.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/File.cpp" />
+		<Unit filename="src/File_Interface.cpp" />
+		<Unit filename="src/HTTP.cpp" />
+		<Unit filename="src/Server.cpp" />
+		<Unit filename="src/Socket.cpp" />
+		<Unit filename="src/Socket_Interface.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

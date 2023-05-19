@@ -1,2 +1,5 @@
-# faculdade-web-socket
- Servidor web socket implementado como trabalho final da disciplina de Redes de Computadores, do curso de Engenharia de Computação do IFMG - Campus Bambuí. 
+# Sobre
+Este projeto é a implementação de um servidor web socket. Ele fornece acesso aos arquivos de uma pasta especificada por parâmetro na execução do programa, ou caso não seja especificada uma pasta, fornece acesso a pasta em que está localizado. O acesso é feito via rede, através de protocolo TCP e comunicação bidirecional por canais full-duplex. Por questões de segurança, a implementação não permite que sejam acessadas pastas que estão do lado de fora do caminho especificado, só é possível navegar pelas pastas internas. Para que a aplicação funcione **é necessário que seja executada em uma máquina com sistema operacional Linux**.
+
+# About
+implementation of a socket web server. It provides access to files in a folder specified by parameter at program execution, or if a folder is not specified, it provides access to the folder in which it is located. Access is via the network, using the TCP protocol and bidirectional communication through full-duplex channels. For security reasons, the implementation does not allow accessing folders that are outside the specified path, it is only possible to browse the internal folders. For the application to work **it must run on a machine with a Linux operating system**.
