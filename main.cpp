@@ -1,8 +1,8 @@
 /*
-    Grupo:
     Carlos Willian Silva Camargos
+    Lucas Dael'olio de Lima
     Rafael Borges de Assis
- */
+*/
 
 #include "Server.h"
 
