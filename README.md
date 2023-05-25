@@ -20,4 +20,4 @@ Caso queira usar o terminal do Linux para compilar, será necessário usar apena
 
 **_Obs:_** Conforme especificado, para iniciar o servidor na pasta desejada basta inserir o diretório diretamente nos parâmetros quando for executar o programa (ex: `nomeexecutavel /home/pastadesejada`). Caso não informe um diretório o programa será iniciado na pasta do projeto que contém o arquivo "main.cpp" ou "Trabalho.cpp".
 
-Servidor criado por: Carlos Willian Silva Camargos, Rafael Borges de Assis e Lucas Dael'olio de Lima.
+Servidor criado por: Carlos Camargos, [Rafael Borges](https://github.com/Real-Fael) e Lucas Dael'olio de Lima.
