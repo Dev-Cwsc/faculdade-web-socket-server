@@ -11,13 +11,13 @@ Para compilar o projeto na [IDE CodeBlocks](https://www.codeblocks.org/downloads
 Esse parâmetro não vem setado por padrão no CodeBlocks. Por isso, aqui vai um breve tutorial de como fazer essa configuração para compilar o projeto corretamente (se não estiver usando CodeBlocks pode pular essa esse tutorial):
 
 - Abra o projeto e selecione a opção Project->Build options...
-- Em seguida será aberta uma janela chamada "Project build options"
-- Nessa janela, selecione a aba "Linker Settings"
-- Selecione o campo chamado "Other linker options:" e escreva o parâmetro "-pthread" sem aspas
+- Em seguida será aberta uma janela chamada _Project build options_
+- Nessa janela, selecione a aba _Linker Settings_
+- Selecione o campo chamado _Other linker options:_ e escreva o parâmetro _-pthread_
 - Clique em Ok para salvar as configurações. Agora o projeto deve compilar corretamente.
 
-Caso queira usar o terminal do Linux para compilar, será necessário usar apenas o arquivo "Trabalho.cpp". Basta executar o comando `g++ -std=c++11 -pthread Trabalho.cpp -o nomeexecutavel`.
+Caso queira usar o terminal do Linux para compilar, será necessário usar apenas o arquivo **Trabalho.cpp**. Basta executar o comando `g++ -std=c++11 -pthread Trabalho.cpp -o nomeexecutavel`.
 
-**_Obs:_** Conforme especificado, para iniciar o servidor na pasta desejada basta inserir o diretório diretamente nos parâmetros quando for executar o programa (ex: `nomeexecutavel /home/pastadesejada`). Caso não informe um diretório o programa será iniciado na pasta do projeto que contém o arquivo "main.cpp" ou "Trabalho.cpp".
+**_Obs:_** Conforme especificado, para iniciar o servidor na pasta desejada basta inserir o diretório diretamente nos parâmetros quando for executar o programa (ex: `nomeexecutavel /home/pastadesejada`). Caso não informe um diretório o programa será iniciado na pasta do projeto que contém o arquivo **main.cpp** ou **Trabalho.cpp**.
 
 Servidor criado por: Carlos Camargos, [Rafael Borges](https://github.com/Real-Fael) e Lucas Dael'olio de Lima.
